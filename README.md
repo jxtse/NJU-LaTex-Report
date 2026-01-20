@@ -26,8 +26,8 @@
 
 ### 在线使用（推荐）
 
-1. **Overleaf**: [点击使用模板](https://www.overleaf.com/)
-2. **TexPage**: 推荐南大学生使用e-Science中心部署的TexPage版本，包含协作和不限量的AI功能 [点击使用模板](https://tex.nju.edu.cn/) （仅限南大学生使用）
+1. **Overleaf**: 直接下载zip文件，在Overleaf中导入即可，需要在File-Settings中选择Compiler为`XeLaTex`
+2. **TexPage**: 推荐南大学生使用[e-Science中心部署的TexPage版本](https://tex.nju.edu.cn/)，包含协作和不限量的AI功能（仅限南大学生使用），使用方法与Overleaf相同
 
 ### 本地使用
 
