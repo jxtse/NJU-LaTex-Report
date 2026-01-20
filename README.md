@@ -33,7 +33,7 @@
 
 1. 下载模板文件
 ```bash
-git clone https://github.com/your-username/NJU-LaTeX-Report.git
+git clone https://github.com/jxtse/NJU-LaTeX-Report.git
 cd NJU-LaTeX-Report
 ```
 
