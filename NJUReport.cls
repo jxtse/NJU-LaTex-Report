@@ -2,7 +2,7 @@
 % NJU 课程论文模板
 % 作者：流风回雪Richard
 % License: Creative Commons CC BY 4.0
-% GitHub: 
+% GitHub: https://github.com/jxtse/NJU-LaTex-Report（欢迎star！）
 % Overleaf:
 % 在SYSU课程论文模板（原作者：NorthSecond）和UCAS_Latex_Template（原作者：jweihe）基础上修改而来
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
