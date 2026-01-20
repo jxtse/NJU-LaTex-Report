@@ -1,0 +1,136 @@
+% reference.bib - 参考文献模板文件
+% 这是一个示例参考文献文件，包含了常见的文献类型示例
+% 使用时请根据实际需要添加、删除或修改条目
+
+% =============================================
+% 期刊文章示例
+% =============================================
+@article{Shannon1948,
+  author  = {Shannon, Claude E.},
+  title   = {A Mathematical Theory of Communication},
+  journal = {Bell System Technical Journal},
+  volume  = {27},
+  number  = {3},
+  pages   = {379--423, 623--656},
+  year    = {1948},
+  doi     = {10.1002/j.1538-7305.1948.tb01338.x}
+}
+
+@article{example_article,
+  author  = {作者姓名},
+  title   = {文章标题},
+  journal = {期刊名称},
+  volume  = {卷号},
+  number  = {期号},
+  pages   = {页码范围},
+  year    = {年份},
+  doi     = {DOI号码}
+}
+
+% =============================================
+% 书籍示例
+% =============================================
+@book{CoverThomas,
+  author    = {Cover, Thomas M. and Thomas, Joy A.},
+  title     = {Elements of Information Theory},
+  edition   = {2},
+  publisher = {John Wiley \& Sons},
+  address   = {Hoboken, NJ},
+  year      = {2006}
+}
+
+@book{example_book,
+  author    = {作者姓名},
+  title     = {书籍标题},
+  edition   = {版本},
+  publisher = {出版社},
+  address   = {出版地},
+  year      = {年份}
+}
+
+% =============================================
+% 会议论文示例
+% =============================================
+@inproceedings{example_conference,
+  author    = {作者姓名},
+  title     = {论文标题},
+  booktitle = {会议名称},
+  pages     = {页码范围},
+  year      = {年份},
+  address   = {会议地点},
+  publisher = {出版社}
+}
+
+% =============================================
+% 学位论文示例
+% =============================================
+@phdthesis{example_phd,
+  author = {作者姓名},
+  title  = {论文标题},
+  school = {学校名称},
+  year   = {年份},
+  type   = {博士学位论文}
+}
+
+@mastersthesis{example_master,
+  author = {作者姓名},
+  title  = {论文标题},
+  school = {学校名称},
+  year   = {年份},
+  type   = {硕士学位论文}
+}
+
+% =============================================
+% 技术报告示例
+% =============================================
+@techreport{example_report,
+  author      = {作者姓名},
+  title       = {报告标题},
+  institution = {机构名称},
+  year        = {年份},
+  number      = {报告编号},
+  type        = {技术报告}
+}
+
+% =============================================
+% 网络资源示例
+% =============================================
+@misc{example_web,
+  author = {作者姓名},
+  title  = {网页标题},
+  url    = {网址},
+  year   = {年份},
+  note   = {访问日期: 2024-01-01}
+}
+
+% =============================================
+% 中文文献示例
+% =============================================
+@article{example_chinese,
+  author  = {张三 and 李四},
+  title   = {中文文章标题},
+  journal = {中文期刊名称},
+  volume  = {卷号},
+  number  = {期号},
+  pages   = {页码范围},
+  year    = {年份},
+  language = {chinese}
+}
+
+@book{example_chinese_book,
+  author    = {王五},
+  title     = {中文书籍标题},
+  publisher = {中文出版社},
+  address   = {北京},
+  year      = {年份},
+  language  = {chinese}
+}
+
+% =============================================
+% 使用说明：
+% 1. 删除不需要的示例条目
+% 2. 根据实际文献信息填写各字段
+% 3. 确保每个条目的标识符（如Shannon1948）是唯一的
+% 4. 在LaTeX文档中使用\cite{标识符}来引用文献
+% 5. 对于中文文献，建议添加language字段
+% =============================================

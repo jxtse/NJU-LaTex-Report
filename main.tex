@@ -1,0 +1,181 @@
+% main.tex
+%!TeX program = xelatex
+\documentclass{NJUReport}
+
+\usepackage{cite}
+\usepackage{natbib}  % 参考文献样式支持
+\usepackage{amsmath}
+\usepackage{amssymb, amsthm, mathtools}
+\usepackage{braket}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{enumitem} % 用于更好的列表格式
+
+% =============================================
+% 个人信息设置
+% =============================================
+\headl{2025春}  % 学期
+\headc{课程名称}  % 课程名称
+\headr{姓名 学号}  % 姓名和学号
+\lessonTitle{课程名称课程报告}  % 课程标题
+\reportTitle{报告标题}  % 报告标题
+\stuname{姓名}  % 学生姓名
+\stuid{学号}  % 学号
+\inst{学院名称}  % 学院
+\major{专业名称}  % 专业
+\date{\today}  % 日期
+
+% =============================================
+% 记号与环境定义（可根据需要修改）
+% =============================================
+\newcommand{\Tr}{\mathrm{Tr}}
+\newcommand{\id}{\mathbb{I}}
+\newcommand{\supp}{\mathrm{supp}}
+\newcommand{\D}{\mathrm{D}}
+\newcommand{\eps}{\varepsilon}
+
+% 注意：定理、定义、命题等环境已在 NJUReport.cls 中预定义
+% 如需自定义，请参考 cls 文件中的定义方式
+\newtheorem{theorem}{定理}[section]
+
+\begin{document}
+
+% =============================================
+% Part 1: 封面
+% =============================================
+\cover
+\thispagestyle{empty}
+\clearpage
+
+% =============================================
+% Part 2： 摘要
+% =============================================
+\begin{abstract}
+这里填写报告的摘要内容。摘要应该简明扼要地概括报告的主要内容、方法、结果和结论。建议控制在300-500字以内。
+
+摘要应包含以下要素：
+\begin{itemize}
+\item 研究背景和目的
+\item 主要方法和理论
+\item 重要发现和结论
+\item 研究意义和价值
+\end{itemize}
+
+关键词可以在这里列出，用分号分隔。
+\end{abstract}
+
+\thispagestyle{empty}
+\clearpage
+
+% =============================================
+% Part 3： 目录页
+% =============================================
+\pagenumbering{Roman}
+\setcounter{page}{1}
+\tableofcontents
+\clearpage
+
+% =============================================
+% Part 4： 正文内容
+% =============================================
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+\section{引言}
+在引言部分，应该介绍研究背景、研究现状、存在的问题以及本报告的目的和意义。可以包括以下内容：
+
+\begin{itemize}
+\item 研究领域的背景介绍
+\item 相关工作的文献综述
+\item 现有方法的局限性
+\item 本报告的创新点和贡献
+\item 报告的组织结构
+\end{itemize}
+
+引用文献的示例：根据Shannon的经典工作\cite{Shannon1948}，信息论为现代通信奠定了理论基础。
+
+\section{理论基础}
+在这一部分介绍报告所需的理论基础和相关概念。
+
+\subsection{基本概念}
+定义相关的基本概念和术语。
+
+\begin{definition}[示例定义]
+这里给出一个定义的示例。定义应该准确、清晰、完整。
+\end{definition}
+
+\begin{theorem}[示例定理]
+这里给出一个定理的示例。
+\end{theorem}
+
+\subsection{相关理论}
+介绍与报告主题相关的重要理论。
+
+\section{方法与分析}
+详细描述所使用的方法、模型或算法。
+
+\subsection{方法描述}
+具体描述采用的研究方法。
+
+\subsection{理论分析}
+进行必要的理论分析和推导。
+
+数学公式的示例：
+\begin{equation}
+E = mc^2
+\label{eq:einstein}
+\end{equation}
+
+引用公式的示例：根据方程\eqref{eq:einstein}，我们可以看到...
+
+\section{实验与结果}
+如果报告包含实验部分，在这里描述实验设计、实施过程和结果。
+
+\subsection{实验设计}
+描述实验的设计思路和具体方案。
+
+\subsection{结果分析}
+展示和分析实验结果。
+
+可以使用表格展示数据：
+\begin{table}[h]
+\centering
+\caption{示例表格}
+\label{tab:example}
+\begin{tabular}{@{}lcc@{}}
+\toprule
+项目 & 数值1 & 数值2 \\
+\midrule
+项目A & 1.23 & 4.56 \\
+项目B & 2.34 & 5.67 \\
+项目C & 3.45 & 6.78 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{讨论}
+对结果进行深入讨论，分析其意义和局限性。
+
+\subsection{结果讨论}
+分析结果的意义和影响。
+
+\subsection{局限性分析}
+讨论研究的局限性和不足。
+
+\section{结论}
+总结报告的主要发现和贡献，并提出未来的研究方向。
+
+\begin{itemize}
+\item 总结主要发现
+\item 强调创新点和贡献
+\item 指出研究局限性
+\item 提出未来研究方向
+\end{itemize}
+
+% =============================================
+% 参考文献
+% =============================================
+\bibliographystyle{alpha}
+\bibliography{reference}
+
+\end{document}
